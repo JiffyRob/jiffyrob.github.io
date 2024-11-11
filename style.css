@@ -68,6 +68,37 @@ body {
   size: 100% clamp(100px, 200px, 400px);
 }
 
+#socials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 7px;
+  margin: 7px;
+}
+
+.icon-button {
+  display: flex;
+  justify-content: flex-start;
+  min-width: 200px;
+  width: 25%;
+  max-width: 350px;
+  height: 40px;
+  border-radius: 12px;
+  border-width: 0px;
+}
+
+.icon {
+  width: 36px;
+  height: 36px;
+}
+
+.icon-text {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+}
+
 #blurb-div {
   float: left;
   margin-bottom: 2em;
@@ -98,6 +129,10 @@ body {
   padding-left: 1em;
   text-indent: -1em;
   width: max-content;
+}
+
+#flubadub-expl {
+  min-height: var(--jiffyrob-height);
 }
 
 @media screen and (min-width: 600px) {
@@ -139,7 +174,7 @@ main {
   padding-right: calc(calc(100% - clamp(300px, 80%, 50em)) / 2);
   padding-bottom:  6em;
   border-style: solid;
-  border-width: 1px 0px 0px 0px;
+  border-width: 1px 0px 1px 0px;
   margin: 0px;
   background-color: var(--dark-gray);
   position: static;
