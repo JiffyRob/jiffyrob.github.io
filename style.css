@@ -53,7 +53,6 @@ body {
   z-index: -1;
 
   display: block;
-  background-image: url('../img/mushrooms.png');
   background-size:cover;
   width: 100%;
   height: calc(var(--jiffyrob-height) * 3);
