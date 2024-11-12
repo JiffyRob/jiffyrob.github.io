@@ -173,6 +173,12 @@ h2 {
   margin-left: 5px;
 }
 
+.copyright {
+  color: lightslategray;
+  width: 100%;
+  text-align: center;
+}
+
 @media screen and (min-width: 600px) {
   #jiffyrob {
     line-height: 0.815;
