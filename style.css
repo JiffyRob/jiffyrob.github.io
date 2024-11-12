@@ -9,38 +9,6 @@
   --greeting-height: 1em;
 }
 
-@media screen and (min-width: 600px) {
-  #jiffyrob {
-    line-height: 0.815;
-    padding-bottom: 0.3em;
-    font-size: var(150px);
-  }
-  .greeting {
-    margin-left: calc(50% - 300px);
-  }
-}
-
-@media screen and (max-width: 800px) and (min-width: 600px) {
-  #jiffyrob {
-    padding-left: 1em;
-    text-indent: -1em;
-    width: min-content;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  #jiffyrob {
-    width: max-content;
-    line-height: 1.2em;
-    font-size: 72px;
-  }
-  .greeting {
-    width: 100%;
-    text-align: center;
-    transform: translate(50px, 0);
-  }
-}
-
 
 html {
   color: white;
@@ -203,4 +171,36 @@ h2 {
   min-width: 300px;
   width: calc(40% - 5px);
   margin-left: 5px;
+}
+
+@media screen and (min-width: 600px) {
+  #jiffyrob {
+    line-height: 0.815;
+    padding-bottom: 0.3em;
+    font-size: var(150px);
+  }
+  .greeting {
+    margin-left: calc(50% - 300px);
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 600px) {
+  #jiffyrob {
+    padding-left: 1em;
+    text-indent: -1em;
+    width: min-content;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #jiffyrob {
+    width: max-content;
+    line-height: 1.2em;
+    font-size: 72px;
+  }
+  .greeting {
+    width: 100%;
+    text-align: center;
+    transform: translate(50px, 0);
+  }
 }
