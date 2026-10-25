@@ -23,64 +23,57 @@
 </head>
 
 <body>
-  <header id="top-bar">
+  <header id="picture-bar">
     <p id="jiffyrob">Jiffy&shy;Rob</p>
-    <p class="tagline">To boldly engineer what no one has engineered before!</p>
+    <p class="tagline"></p>
   </header>
   <main>
-    <div id="blurb">
-      <p>
-        Hello!
+    <nav>
+      <ul class="menu-bar">
+        <li id="active-menu-bar-item"><a href="./index.html">Home</a></li>
+        <li id="mr-stretchy">help im a bug</li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./socials.html">Socials</a></li>
+        <li class="last-menu-bar-entry"><a href="./cool-links.html">Cool Links</a></li>
+      </ul>
+    </nav>
+    <div id="content">
+      <div id="blurb">
+        <p>
+          Hello!
 
-        I'm John Robinson, mainly known online as <b>JiffyRob</b>.
-        I'm currently an Electrical Engineering major at the University of Notre Dame, but I have interests in all sorts of things.
-        Most of my experience with engineering work in general comes from my time designing and building games and small robots for fun.
-        In the course of these wild projects, I've accumulated a patchwork of skills and relationships in everything from psychology research
-        to game jamming, and I'm excited to continue growing these skills and relationships in college and beyond.
-        <br>
-        Some technologies I am familiar with include:
-        <ul>
-          <li>Python</li>
-          <li>C/C++</li>
-          <li>Rust (including embedded <code>nostd</code> Rust)</li>
-          <li>Lua</li>
-          <li>GLSL (especially embedded)</li>
-          <li>HTML/CSS/JS (like this website!)</li>
-          <li>Local LLM hosting (though I prefer to write my own code)</li>
-          <li>Numpy</li>
-          <li>Pygame (PR'd this one a couple times)</li>
-          <li>KiCAD</li>
-          <li>Onshape</li>
-          <li>Solidworks</li>
-        </ul>
+          I'm John Robinson, mainly known online as JiffyRob.
+          I'm currently an Electrical Engineering major at the University of Notre Dame, but I have interests in all sorts of things.
+          Most of my experience with engineering work in general comes from my time designing and building games and small robots for fun.
+          In the course of these wild projects, I've accumulated a patchwork of skills and relationships in everything from psychology research
+          to game jamming, and I'm excited to continue growing these skills and relationships in college and beyond.
+          <br>
+          Some technologies I am familiar with include:
+          <ul>
+            <li>Python</li>
+            <li>C/C++</li>
+            <li>Rust (including embedded <code>nostd</code> Rust)</li>
+            <li>Lua</li>
+            <li>GLSL (especially embedded)</li>
+            <li>HTML/CSS/JS (like this website!)</li>
+            <li>Local LLM hosting (though I prefer to write my own code)</li>
+            <li>Numpy</li>
+            <li>Pygame (PR'd this one a couple times)</li>
+            <li>KiCAD</li>
+            <li>Onshape</li>
+            <li>Solidworks</li>
+          </ul>
+        </p>
+      </div>
+      <img id="jiffyrob-img" src="img/flubadub.png">
+      <p id="flubadub-expl" class="small">
+        (The profile pic is from a game I started working on in middle school and never finished. It's called a flubadub.)
       </p>
-    </div>
-    <img id="jiffyrob-img" src="img/flubadub.png">
-    <p id="flubadub-expl" class="small">
-      (The profile pic is from a game I started working on in middle school and never finished. It's called a flubadub.)
-    </p>
-    <div id="project-expo">
+      <div id="project-expo">
+      </div>
     </div>
   </main>
   <footer>
-    <div id="socials">
-      <button class="icon-button" id="github-button" onclick="github()">
-        <img class="icon" src="img/github-logo.svg">
-        <span class="icon-text">GitHub</span>
-      </button>
-      <button class="icon-button" id="itchio-button" onclick="itchio()">
-        <img class="icon" src="img/itchio-logo.svg">
-        <span class="icon-text">Itch.io</span>
-      </button>
-      <button class="icon-button" id="soundcloud-button" onclick="soundcloud()">
-        <img class="icon" src="img/soundcloud-logo.svg">
-        <span class="icon-text">SoundCloud</span>
-      </button>
-      <button class="icon-button" id="discord-button" onclick="discord()">
-        <img class="icon" src="img/discord-logo.svg">
-        <span class="icon-text">Discord</span>
-      </button>
-    </div>
     <p class="copyright">&copy John Robinson, 2026. Source code is at <a href="https://github.com/JiffyRob/jiffyrob.github.io">GitHub.</a></p>
   </footer>
   <script src="app.js"></script>

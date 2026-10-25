@@ -39,4 +39,4 @@ const style = (function() {
     return style;
 })();
 
-style.sheet.insertRule(`#top-bar::before {background-image: url("img/${backgroundImage}.png");}`, 0);
+style.sheet.insertRule(`#picture-bar::before {background-image: url("img/${backgroundImage}.png");}`, 0);
